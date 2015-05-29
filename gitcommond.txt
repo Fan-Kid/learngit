@@ -15,6 +15,17 @@ A.-----------------------------------
 		HEAD  HEAD^ HEAD~num
 
 	git reflog
+
+	git rm
+
+	git remote add orgin []
+	
+	git push -u origin master  // first push
+
+	git push origin master      //before push
+
+	git clone [] 
+
 -------------------------------------
 
 B.----------------------------------------------------------
@@ -33,3 +44,15 @@ B.----------------------------------------------------------
 
 C-----------------------
 	git checkout -- filename
+	git reset HEAD filename
+------------------------
+
+D.--------------------------------------------------------
+	git checkout -b <name> // create + checkout
+	git checkout <name>
+	git branch
+	git merge <name>
+	git branch -d <name>
+----------------------------------------------------------
+
+
