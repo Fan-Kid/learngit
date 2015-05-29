@@ -18,13 +18,15 @@ A.-----------------------------------
 
 	git rm
 
-	git remote add orgin []
+	git remote add orgin <url>
+
+	git remote -v
 	
 	git push -u origin master  // first push
 
 	git push origin master      //before push
 
-	git clone [] 
+	git clone <url> 
 
 -------------------------------------
 
@@ -42,10 +44,10 @@ B.----------------------------------------------------------
 
 ------------------------------------------------------------
 
-C-----------------------
+C.-----------------------
 	git checkout -- filename
 	git reset HEAD filename
-------------------------
+-------------------------
 
 D.--------------------------------------------------------
 	git checkout -b <name> // create + checkout
@@ -54,7 +56,13 @@ D.--------------------------------------------------------
 	git merge <name>
 	git merge --no--ff -m "" <name>
 	git branch -d <name>
+	git branch -D <name>
 	git log --graph --pretty=oneline --abbrev-commit
+
+	git push origin branch-nam
+	git pull
+	git checkout -b branch-name origin/branch-name
+	git branch --set-upstream branch-name origin/branch-name
 ----------------------------------------------------------
 
 E.----------------------
