@@ -18,7 +18,7 @@ A.-----------------------------------
 
 	git rm
 
-	git remote add orgin <url>
+	git remote add origin <url>
 
 	git remote -v
 	
@@ -91,3 +91,4 @@ G.--------------------------------
 	git config --global color.ui true
 	git config --global alias <commond> <name>
 ----------------------------------
+http://git-scm.com
