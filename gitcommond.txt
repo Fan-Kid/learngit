@@ -74,4 +74,19 @@ E.----------------------
 
 ------------------------
 
+F.-------------------------------------------------------
+	git tag <name>
+	git tag
+	git show <tagname>
+	git tag -a <tagname> -m ""
+	git tag -s <tagname> -m ""
 
+	git push origin <tagname>
+	git push origin --tags
+	git tag -d <tagname>
+	git push origin :refs/tags/<tagname>
+---------------------------------------------------------
+
+G.--------------------------------
+	git config --global color.ui true
+----------------------------------
